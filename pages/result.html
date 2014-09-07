@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>検索結果</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript">
+	// alert("trst");
+	$(function(){
+		$("btn").click(
+			function() {
+				$("btn").attr("href", "result.html");
+			});
+	});
+
+	</script>
+	<link rel="stylesheet" type="text/css" href="../style/styles.css" media="all">
+
+</head>
+<body>
+	<!-- header -->
+	<header>
+		<hgroup>
+			<h1><img src="../images/logo.png" alt="ロゴ　探せる!育児支援制度!"></h1>
+			<h2> </h2>
+		</hgroup>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-via="アカウント">Tweet</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		<nav>
+			<ul>
+				<li><a href="../index.html">TOP</a></li>
+				<li><a href="./search.html">検索</a></li>
+				<li><a href="./news.html">ニュース</a></li>
+				<li><a href="./Q_A.html">Q&A</a></li>
+			</ul>
+		</nav>
+
+	</header>
+	<!-- //header -->
+
+	<div id="contents">
+		<h3>一時預かり事業に関すること•放課後自動クラブの利用について</h3>
+		<fieldset>
+			<h4>一時預かり事業に関すること</h4>
+			<p>新制度においては、現行の幼稚園における預かり保育と同様、園児を主な対象として実施する幼稚園型、児童の居宅において一時預かりを実施する訪問型を創設し、さらなる事業の充実を図る方向で検討しています。 なお、新制度の施行に先立ち、平成26年度に実施する保育緊急確保事業においては、保育所型、地域密着型、地域密着Ⅱ型について小規模な施設が多いことを踏まえ、保育所等の職員の支援を受けられる場合には担当保育士を一人以上とすることができる等の見直しを行い、「一般型」へ再編するとともに、年間延べ利用児童数が少ない施設に対する補助単価の改善を行いました。
+				また、保育所等において、利用児童数が定員に達していない場合に、定員の範囲内で一時預かり事業として受け入れることができる「余裕活用型」を創設しました。さらに、事業開始にあたり必要となる改修等の費用や準備のための賃借料を補助する「開設準備費」を創設し事業の充実を図っています。
+			</p>
+		</fieldset>
+		<fieldset>
+			<h4>利用者支援事業に関すること</h4>
+			<p>これまでの地域子育て支援拠点事業の「地域機能強化型」の機能を、実施内容等について拡充し、利用者支援事業に発展的に移行することとしています。したがって、利用者支援事業は、地域子育て支援拠点事業とは別に財政支援を行います。同じ事業者で両事業を行っていただく場合は、事業の運営にあたって、それぞれの事業の担当の方が相互に協力しあうとともに、事業の円滑な実施のために一体的な体制を構築していただきたいと考えています。
+			</p>
+		</fieldset>
+	</div>
+
+
+	<form name="frm" method="post" action="search.html">
+		<input type="button" onclick="location.href='search.html'" value="戻る" />
+	</form>
+
+	<!-- footer -->
+	<footer>
+		<p><small>&copy;2014</small></p>
+	</footer>
+	<!-- //footer -->
+</body>
+</html>
